@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.nav-bar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
+}
+.logo{
+  background-image: url(img/amazo-logo.jpeg);
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
+#border{
+  border: 1.5px solid transparent;
+}
+#border:hover{
+  border: 1.5px solid white;
+}
+.address-first{
+  color: #cccccc;
+  font-size: 0.85rem;
+}
+.address-secound{
+  font-size: 1rem;
+}
+.address-icon{
+  align-items: center;
+  display: ;
+}
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 3px;
+}
+.search-select{
+  background-color: #f3f3f3;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+.search-input{
+  width: 500px;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon{
+  width: 45px;
+  height: 50px;
+  color: #dea90b;
+}
